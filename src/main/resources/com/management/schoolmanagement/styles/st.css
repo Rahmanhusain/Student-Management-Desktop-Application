@@ -1,0 +1,32 @@
+.body{
+     -fx-background-image: url('back.jpg');
+     -fx-background-size: 100% 100%;
+     -fx-background-radius:15%;
+  }
+  .test{
+  -fx-background-color:red;
+  -fx-background-radius:10;
+
+  }
+  .test:hover{
+    -fx-cursor: hand;
+     -fx-background-color:#F51FF0;
+
+    }
+.topmenus:hover{
+-fx-cursor: hand;
+ }
+.btn{
+-fx-background-color: #75FA61;
+-fx-background-radius:10;
+}
+.btn:pressed {
+-fx-background-color: #218A08;
+}
+.btn:hover{
+-fx-cursor: hand;
+}
+.forget:hover{
+-fx-text-fill:#150A8A;
+-fx-cursor: hand;
+}
